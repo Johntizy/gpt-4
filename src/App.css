@@ -17,8 +17,8 @@ body{
 .gradient_text{
     background: var(--gradient-text);
     background-clip: text;
-    --webkit-background-clip: text;
-    --webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .section_padding{

@@ -17,10 +17,10 @@ const Header = () => {
           <img src={people} alt='people' />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-        <div>
+      </div>
+      <div className='header_image'>
           <img src={ai} alt='ai image'/>
         </div>
-      </div>
     </div>
   )
 }
