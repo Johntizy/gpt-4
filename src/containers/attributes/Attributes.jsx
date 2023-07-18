@@ -1,5 +1,6 @@
 import React from 'react';
 import {Features} from '../../components';
+import './Attributes.css';
 
 const featuresData = [
   {
@@ -22,16 +23,16 @@ const featuresData = [
 
 const Attributes = () => {
   return (
-    <div className='features_section section_padding' id='features'>
-      <div className='features_section_heading'>
+    <div className='attributes section_padding' id='features'>
+      <div className='attributes_heading'>
         <h1 className='gradient_text'>
         The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
         </h1>
         <p>Request Early Access to Get Started</p>
       </div>
-      <div className='features_section_container'>
+      <div className='attributes_features_container'>
         {featuresData.map((data, index) => (
-          <Features title={data.title} text={data.text}/>
+          <Features key={data.title + index} title={data.title} text={data.text}/>
         ))}
       </div>
     </div>
