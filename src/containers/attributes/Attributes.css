@@ -33,7 +33,7 @@
 }
 
 .attributes_features_container{
-    flex: 1.5;
+    flex: 1.2;
     display: flex;
     justify-content: flex-start;
     align-items: center;

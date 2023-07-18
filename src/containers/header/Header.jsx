@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png';
 
 const Header = () => {
   return (
-    <div className='header section_padding' id='home'>
+    <div className='header section_padding' id='header'>
       <div className='header_content'>
         <h1 className='gradient_text'>Let's Build Something amazing with GPT-4 OpenAI</h1>
         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>

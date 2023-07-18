@@ -6,11 +6,11 @@ import { useState } from 'react';
 
 const Menu = () => (
   <>
-  <p><a>Home</a></p>
-  <p><a>What is GPT</a></p>
-  <p><a>Open AI</a></p>
-  <p><a>Case Studies</a></p>
-  <p><a>Library</a></p>
+  <p><a href='#header'>Home</a></p>
+  <p><a href='#whatgpt'>What is GPT</a></p>
+  <p><a href='#possibility'>Open AI</a></p>
+  <p><a href='#attributes'>Case Studies</a></p>
+  <p><a href='#blog'>Library</a></p>
   </>
 )
 const Navbar = () => {

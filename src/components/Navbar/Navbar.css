@@ -43,6 +43,11 @@
     cursor: pointer;
 }
 
+.navbar_links p a, .navbar_menu_links p a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .navbar_sign button, .navbar_menu_sign button{
     padding: 0.5rem 1rem;
     color: #fff;

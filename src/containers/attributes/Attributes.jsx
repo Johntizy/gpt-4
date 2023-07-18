@@ -23,7 +23,7 @@ const featuresData = [
 
 const Attributes = () => {
   return (
-    <div className='attributes section_padding' id='features'>
+    <div className='attributes section_padding' id='attributes'>
       <div className='attributes_heading'>
         <h1 className='gradient_text'>
         The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
