@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.svg';
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -36,6 +37,9 @@ const Footer = () => {
           <p>085-132567</p>
           <p>info@payme.net</p>
         </div>
+      </div>
+      <div className="footer_copyright">
+        <p>© 2021 GPT-3. All rights reserved.</p>
       </div>
     </div>
   )
